@@ -1,0 +1,66 @@
+:root {
+    --bg: #0b1220;
+    --panel: #111b2e;
+    --text: #e8eef7;
+    --muted: #9aa9bf;
+    --accent: #5aa9ff;
+    --border: #24324a;
+}
+.stApp {
+    background: linear-gradient(135deg, #0b1220 0%, #101a2d 100%);
+}
+.block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+h1, h2, h3 {
+    letter-spacing: -0.02em;
+}
+.hero {
+    background: linear-gradient(135deg, #15233b, #0e1728);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 26px;
+    margin-bottom: 18px;
+}
+.hero h1 {
+    margin: 0;
+    color: var(--text);
+}
+.hero p {
+    color: var(--muted);
+    font-size: 1.02rem;
+}
+.metric-card {
+    background: rgba(17, 27, 46, 0.92);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 18px;
+    min-height: 120px;
+}
+.metric-label {
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+.metric-value {
+    color: var(--text);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.metric-sub {
+    color: var(--muted);
+    font-size: 0.78rem;
+    margin-top: 4px;
+}
+.section-card {
+    background: rgba(17, 27, 46, 0.75);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 18px;
+    margin-bottom: 16px;
+}
+.small-note {
+    color: var(--muted);
+    font-size: 0.82rem;
+}

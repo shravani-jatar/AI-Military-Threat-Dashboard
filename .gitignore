@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.streamlit/
+models/*.joblib
+data/*.csv
+data/*.xlsx
+data/*.zip
